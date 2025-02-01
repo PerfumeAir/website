@@ -1,0 +1,26 @@
+h1,h2,p,li,article,aside{ 
+  /*全局字体样式*/
+  font-family:'Comic Sans MS';
+  color: #00539F;
+  text-shadow: 3px 3px 3px rgb(249, 117, 117);
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+h1 ,h2{
+  margin: 0;
+  padding: 20px 0;
+}
+p, li {
+  font-size: 16px;
+  /* line-height 后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+  line-height: 2;
+  letter-spacing: 1px;
+}
+strong {
+  color:red;
+}
+a{
+  font-family:'Comic Sans MS';
+}

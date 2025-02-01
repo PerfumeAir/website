@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Perfume">
+    <meta name="description" content="This is one of PerfumeAir's Github repositories used for HTML development">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="resources/images/home.ico"/>
+    <title>Main Page</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+</head>
+   
+<body>
+    <div class="menu">
+        <a class="menu_select" href="#">Home</a>
+        <a class="menu_item" href="pages/resource.html">Resources</a> 
+        <a class="menu_item" href="pages/other.html">Other</a> 
+        <a class="menu_item" style="float: right;" href="pages/login.html">Login</a>
+    </div>
+
+    <div class="content">
+        <header>
+            <h1>Home</h1>
+            <h2>Hello!</h2>
+        </header>
+        <main>
+            <nav>
+                <ul>
+                    <li>
+                        <p>Attention-Charlie Puth</p>
+                        <audio class="li-content" src="resources/audio/Attention-Charlie Puth.320.mp3" controls></audio>
+                    </li>
+                    <li>
+                        <p>Genshin Impact</p>
+                        <video class="li-content" src="resources/video/Genshin.mp4" controls></video>
+                    </li>
+                    <li>
+                        <p>BLOP</p>
+                        <img srcset="resources/images/wallhaven-wlop-384w.png 384w,resources/images/wallhaven-wlop-960w.png 960w,resources/images/wallhaven-wlop-1920w.png 1920w" 
+                            sizes="(max-width: 960px) 384px,(max-width:1920px) 960px, 1920px"
+                            src="resources/images/wallhaven-wlop-2200w.png"
+                            alt="BLOP壁纸"
+                            class="li-content">
+                    </li>
+                </ul>
+            </nav>
+        </main> 
+        <footer>
+            <em class="footer-em">None</em>
+            <button>Forget</button>
+            <p>This website is only used by the author for writing HTML experiments</p>
+        </footer>
+    </div>
+    
+    <script src="scripts/main.js" defer></script>
+</body>
+</html>
