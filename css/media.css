@@ -1,0 +1,10 @@
+@media (orientation: portrait) and (max-width:390px){
+    .menu{
+        display: none;
+    }
+    .media-menu{
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(254, 200, 254);
+    }
+}

@@ -58,8 +58,9 @@ html {
     height: 80%;
     margin: 0 auto;
 }
-
-
+.media-menu{
+    display: none;
+}
 
  
   
