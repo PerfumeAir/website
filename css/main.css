@@ -54,9 +54,9 @@ html {
 }
 .li-content{
     display: block;
-    width: 80%;
-    height: 80%;
-    margin: 0 auto;
+    width: 95%;
+    /* height: 80%; */
+    margin: 20px auto;
 }
 .media-menu{
     display: none;
